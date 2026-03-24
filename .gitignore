@@ -1,0 +1,52 @@
+# ─── Gradle ───────────────────────────────────────────────────────────────────
+.gradle/
+**/build/
+!src/**/build/
+gradle-wrapper.jar
+local.properties
+
+# ─── Kotlin / KMP ─────────────────────────────────────────────────────────────
+.kotlin/
+# KMP generated resource collectors / accessors are regenerated on build
+**/generated/
+
+# ─── Android ──────────────────────────────────────────────────────────────────
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# ─── iOS / Xcode ──────────────────────────────────────────────────────────────
+xcuserdata/
+**/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+Pods/
+
+# ─── IntelliJ / Android Studio ────────────────────────────────────────────────
+.idea/
+*.iws
+out/
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ─── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+node_modules/
+*.log
