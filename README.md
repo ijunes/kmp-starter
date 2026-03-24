@@ -1,4 +1,4 @@
-# Newsy
+# KMP-Starter
 
 A Kotlin Multiplatform application targeting **Android** and **iOS**, built with Compose Multiplatform for shared UI.
 
