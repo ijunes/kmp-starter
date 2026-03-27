@@ -3,20 +3,11 @@ plugins {
     // in each subproject's classloader
     alias(libs.plugins.androidApplication) apply false
     alias(libs.plugins.androidLibrary) apply false
-    alias(libs.plugins.androidx.room)
-    alias(libs.plugins.composeMultiplatform) apply false
+    alias(libs.plugins.androidx.room) apply false
+    alias(libs.plugins.buildkonfig) apply false
     alias(libs.plugins.composeCompiler) apply false
-    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.composeMultiplatform) apply false
     alias(libs.plugins.kotlinAndroid) apply false
-    alias(libs.plugins.ksp)
-    alias(libs.plugins.ktorfit)
-}
-
-kotlin {
-    jvm()
-    iosArm64()
-}
-
-dependencies {
-
+    alias(libs.plugins.kotlinMultiplatform) apply false
+    alias(libs.plugins.ksp) apply false
 }

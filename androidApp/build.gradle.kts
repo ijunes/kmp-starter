@@ -32,8 +32,9 @@ android {
 }
 
 dependencies {
-
-    implementation(projects.composeApp)
-    implementation(libs.androidx.activity.compose)
     debugImplementation(libs.compose.uiTooling)
+    implementation(libs.androidx.activity.compose)
+    implementation(platform(libs.koin.bom))
+    implementation(libs.koin.android)
+    implementation(projects.composeApp)
 }
